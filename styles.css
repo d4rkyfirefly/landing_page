@@ -1,0 +1,142 @@
+/* Globals */
+
+body {
+    background-color: #FFFFFF;
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Home Part */
+
+#Home {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+.logo {
+    color: #a10303;
+    width: 100px;
+    height: 100px;
+    font-size: 24;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Products Part */
+
+#Products {
+    align-items: center;
+}
+
+.products-info {
+    display: flex;
+    justify-content: center;
+}
+
+.products-info p {
+    color: #1F2937;
+    margin: 5px 40px 30px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products-info img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #3882F6;
+    border-radius: 24px;
+    margin: 20px 30px 20px 30px;
+}
+
+/* Testimonials Part */
+
+#Testimonials {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#Testimonials p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Testimonials b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* Contact Part */
+
+#Contact {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.contact-info {
+    text-align: left;
+    flex: 1;
+}
+
+.contact-info p {
+    color: #fff;
+    margin: 5px 40px 30px 50px;
+}
+
+.contact-info h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.contact-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer Part */
+
+.Footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
