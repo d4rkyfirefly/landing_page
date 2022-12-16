@@ -16,25 +16,83 @@ body {
 
 /* Home Part */
 
-#Home {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    
-}
-
-.logo {
-    color: #a10303;
-    width: 100px;
-    height: 100px;
-    font-size: 24;
-}
-
-.navbar {
+.home {
     display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
     padding: 20px 0px 20px 100px;
     align-items: center;
-    list-style: none;
+}
+
+.logo p {
+    color: #ee0000;
+    font-size: 28px;
+    width: 24px;
+    height: 24px;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 50px 0px 0px;  
+}
+
+.menu a {
     text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-text {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+}
+
+.hero-tex h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
 }
 
 /* Products Part */
